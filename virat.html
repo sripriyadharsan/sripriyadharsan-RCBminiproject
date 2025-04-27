@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Virat Kohli in RCB</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    html, body {
+      height: 100%;
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: white;
+      background-image:  url('rcb.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    body {
+      display: flex;
+      flex-direction: column;
+      backdrop-filter: brightness(0.9);
+    }
+    .tab {
+      display: flex;
+      justify-content: center;
+      background-color: rgba(0, 0, 0, 0.75);
+      padding: 15px;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+    .tab button {
+      background-color: transparent;
+      border: 2px solid #f1c40f;
+      color: white;
+      padding: 10px 20px;
+      margin: 0 10px;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 5px;
+      transition: all 0.3s ease;
+    }
+    .tab button:hover,
+    .tab button.active-btn {
+      background-color: #f1c40f;
+      color: black;
+    }
+    .tabcontent {
+      flex-grow: 1;
+      padding: 40px 20px;
+      background-color: rgba(0, 0, 0, 0.7);
+      display: none;
+      animation: fadeEffect 0.5s ease-in-out;
+      max-width: 1200px;
+      margin: 0 auto;
+      border-radius: 15px;
+      margin-top: 20px;
+    }
+    .tabcontent.active-tab {
+      display: block;
+    }
+    @keyframes fadeEffect {
+      from {opacity: 0;}
+      to {opacity: 1;}
+    }
+    .player-images {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-bottom: 30px;
+    }
+    .player-images img {
+      width: 300px;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+    }
+    section {
+      margin-bottom: 40px;
+    }
+    h1, h2, p {
+      text-align: center;
+      max-width: 900px;
+      margin: 0 auto 20px;
+    }
+    h2 {
+      margin-top: 30px;
+      font-size: 24px;
+      color: #f1c40f;
+      text-shadow: 1px 1px 4px rgba(0,0,0,0.7);
+    }
+    ul li {
+      margin-bottom: 10px;
+    }
+    blockquote {
+      font-style: italic;
+      background: rgba(255,255,255,0.1);
+      padding: 20px;
+      border-left: 5px solid #f1c40f;
+      border-radius: 10px;
+      color: #f9e79f;
+      font-size: 18px;
+      line-height: 1.6;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      max-width: 500px;
+      margin: 0 auto;
+    }
+    .form-group label {
+      font-weight: bold;
+    }
+    input, select {
+      padding: 10px;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      margin-top: 5px;
+    }
+    .submit-btn {
+      background-color: #f1c40f;
+      color: black;
+      font-weight: bold;
+      padding: 12px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    .submit-btn:hover {
+      background-color: #d4ac0d;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: rgba(0,0,0,0.7);
+      margin-top: auto;
+    }
+  </style>
+</head>
+<body>
+  <div class="tab">
+    <button onclick="navigateTo('home')">Home</button>
+    <button class="active-btn" onclick="openTab('virat', this)">Virat Kohli in RCB</button>
+    <button onclick="openTab('register', this)">Register for RCB Team</button>
+    <button onclick="navigateTo('about')">About</button>
+
+  </div>
+  <div id="virat" class="tabcontent active-tab">
+    <h1>Virat Kohli - The Icon of Royal Challengers Bangalore</h1>
+    <div class="player-images">
+      <img src="vi.jpg" alt="Virat Kohli Batting">
+      <img src="vir.jpg" alt="Virat Kohli RCB">
+      <img src="vira.jpg" alt="Virat Kohli Iconic">
+    </div>
+    <section>
+      <p>
+        Virat Kohli, the face of Royal Challengers Bangalore (RCB), has been a central figure in the IPL ever since its inception. Known for his aggressive batting and leadership, Kohli is one of the most successful and beloved cricketers globally.
+      </p>
+      <p>
+        Under his captaincy, RCB reached multiple IPL finals, and his passion for the game is unparalleled. His performances both as a player and captain have made him one of the most respected players in modern cricket.
+      </p>
+      <p>
+        Despite not winning the IPL title yet, Kohli continues to inspire the team and fans with his commitment, passion, and unmatched energy on the field.
+      </p>
+    </section>
+    <section>
+      <h2>🏆 Career Highlights</h2>
+      <ul style="list-style: none; padding-left: 0; display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
+        <li>🥇 2013 ICC Champions Trophy Winner</li>
+        <li>🏆 2016 IPL Finalist</li>
+        <li>🏆 2011 ODI World Cup Winner</li>
+        <li>🎯 70+ International Centuries</li>
+        <li>🏏 Fastest to 8000, 9000, 10000 ODI Runs</li>
+      </ul>
+    </section>
+    <section>
+      <h2>💬 Iconic Virat Kohli Quote</h2>
+      <blockquote>
+        "I don’t play to be average, I play to be the best." – Virat Kohli
+      </blockquote>
+    </section>
+    <section>
+      <h2>📌 Virat Facts</h2>
+      <ul style="max-width: 800px; margin: 0 auto;">
+        <li>🏏 Virat is known for his fitness regimen, often inspiring youth to stay fit.</li>
+        <li>📱 Virat has a massive social media following and is a brand ambassador for various companies.</li>
+        <li>🎮 He’s a big fan of gaming, especially football, and supports various sports beyond cricket.</li>
+        <li>🧘 Kohli practices yoga and meditation to stay mentally sharp and calm during high-pressure situations.</li>
+        <li>🍽️ Known for his healthy eating habits and often advocates for a balanced lifestyle.</li>
+      </ul>
+    </section>
+    <section>
+      <h2>📅 RCB Journey Timeline</h2>
+      <div style="display: flex; flex-direction: column; gap: 10px; max-width: 600px; margin: 0 auto; border-left: 3px solid #f1c40f; padding-left: 20px;">
+        <div><strong>2008:</strong> Joined RCB, a star from the beginning</div>
+        <div><strong>2011:</strong> RCB made it to the IPL final</div>
+        <div><strong>2013:</strong> Became RCB captain</div>
+        <div><strong>2016:</strong> Led RCB to another IPL final</div>
+        <div><strong>2024:</strong> Still leading and inspiring RCB with unmatched energy</div>
+      </div>
+    </section>
+  </div>
+  <div id="register" class="tabcontent">
+    <h2>Register to Join the RCB Dream</h2>
+    <form id="rcbForm" enctype="multipart/form-data">
+      <div class="form-group">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required>
+      </div>
+      <div class="form-group">
+        <label for="role">Playing Role:</label>
+        <select id="role" name="role" required>
+          <option value="">--Select--</option>
+          <option value="batsman">Batsman</option>
+          <option value="bowler">Bowler</option>
+          <option value="allrounder">All-Rounder</option>
+          <option value="wicketkeeper">Wicket Keeper</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="experience">Cricket Experience:</label>
+        <select id="experience" name="experience" required>
+          <option value="">--Select--</option>
+          <option value="beginner">Beginner (0–2 years)</option>
+          <option value="intermediate">Intermediate (2–5 years)</option>
+          <option value="advanced">Advanced (5+ years)</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="hand">Preferred Hand:</label>
+        <select id="hand" name="hand" required>
+          <option value="">--Select--</option>
+          <option value="right">Right-Handed</option>
+          <option value="left">Left-Handed</option>
+          <option value="ambidextrous">Ambidextrous</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="bio">Brief Bio / Achievements:</label>
+        <textarea id="bio" name="bio" rows="4" placeholder="Tell us about your cricket journey..." style="width: 100%; padding: 10px; border-radius: 8px;"></textarea>
+      </div>
+      <div class="form-group">
+        <label for="photo">Upload Your Photo:</label>
+        <input type="file" id="photo" name="photo" accept="image/*">
+      </div>
+      <button type="submit" class="submit-btn">Submit Registration</button>
+    </form>
+  </div>
+  <footer>
+    © 2025 Royal Challengers Bangalore Fan Page | Made with ❤️ for Kohli & RCB
+  </footer>
+  <script>
+    function openTab(tabName, btn) {
+      const contents = document.querySelectorAll('.tabcontent');
+      const buttons = document.querySelectorAll('.tab button');
+      contents.forEach(c => c.classList.remove('active-tab'));
+      buttons.forEach(b => b.classList.remove('active-btn'));
+      document.getElementById(tabName).classList.add('active-tab');
+      btn.classList.add('active-btn');
+    }
+    document.getElementById('rcbForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      alert('Thank you for registering with RCB! We’ll contact you soon.');
+      this.reset();
+    });
+  </script>
+</body>
+</html>
