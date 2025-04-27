@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Home </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<center>
+<div class="logo"><img src="rcb.jpg" alt="rcb logo"></div>
+</center>  
+<nav>
+    <a href="index.html">Home</a>
+    <a href="virat.html">Register</a>
+    <a href="about.html">About</a>
+    <!-- <a href="contact.html">Contact</a>
+    <a href="gallery.html">Gallery</a> -->
+  </nav>
+
+  <h1>Welcome to cricket World</h1>
+  <div class="container">
+    <p> "Royal Challengers Bengaluru is not just a team—it's an emotion." </p> 
+    <br>
+    <p> >Royal Challengers Bengaluru, formerly known as Royal Challengers Bangalore, commonly known as RCB, is a professional franchise cricket team based in Bengaluru, Karnataka, competing in the Indian Premier League. Founded in 2008 by United Spirits, currently managed by Prathamesh Mishra, the team is named after the liquor brand, Royal Challenge. The M. Chinnaswamy Stadium in Bengaluru is their home ground. It is the most popular and followed cricket franchise with more than 18 million followers on Instagram.
+
+As of 2025, the team is captained by Rajat Patidar and coached by Andy Flower. Royal Challengers have finished as runners-up on three occasions, in 2009, 2011, and 2016, and have qualified for the playoffs in nine seasons. The franchise has competed in the Champions League, finishing as runners-up in the 2011 season. As of 2024, RCB was valued at $117 million, making them one of the most valuable IPL franchises.
+ </p>
+    <br>
+    <h1> HISTROY </h1>
+    <p>2008–2010: Initial seasons
+Main articles: Royal Challengers Bangalore in 2008, 2009, and 2010
+In September 2007, the Board of Control for Cricket in India (BCCI) announced the establishment of the Indian Premier League (IPL), a Twenty20 competition set to begin in 2008. On 24 January 2008, an auction was held in Mumbai for the league's teams, which represented eight different cities in India, including Bengaluru. The Bangalore franchise was acquired by Vijay Mallya for US$111.6 million, making it the second-highest bid, slightly less than Reliance Industries' US$111.9 million bid for the Mumbai Indians.
+
+
+Rahul Dravid was the team's icon player in 2008.
+Ahead of the 2008 player auction, the IPL designated Rahul Dravid as the icon player for the Bangalore franchise. This designation ensured that Dravid would be paid 15% more than the highest bid player at the auction. The franchise acquired several prominent Indian and international players, including Jacques Kallis, Anil Kumble, Zaheer Khan, Mark Boucher, Dale Steyn, and Cameron White. In the second round of the auction, they also signed Ross Taylor, Misbah-ul-Haq, and India under-19 World Cup-winning captain Virat Kohli. The franchise named Dravid as the captain of the team and appointed Venkatesh Prasad as the head coach. The team struggled in the inaugural season, winning only four out of their 14 matches and finishing seventh in the eight-team table. Dravid was the sole player to score more than 300 runs in the tournament, and the team even had to bench their most expensive foreign player, Kallis, for several matches due to his poor form. Midway through the season, the string of failures led to the sacking of CEO Charu Sharma, who was replaced by Brijesh Patel. Mallya publicly criticised Dravid and Sharma for their selection of players at the auction, stating that his "biggest mistake was to abstain from the selection of the team." Eventually, the chief cricketing officer of the franchise, Martin Crowe, resigned and Prasad was replaced by Ray Jennings as the head coach  </p>
+  </div>
+</body>
+</html>
